@@ -8,7 +8,7 @@ public class Triangle {
         String str="";
         for (int i = 0; i < cathetusLength; i++) {
             for (int j = 0; j <= i; j++) {
-                if(j==i){
+                if(j==i && i!=cathetusLength-1){
                     str+="8\n";
                 }else {
                     str += "8";
